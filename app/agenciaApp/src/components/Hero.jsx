@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Carousel from "./Carousel";
 import DestinationCards from "./DestinationCards";
 import Testimonials from "./Testimonials";
+import FAQ from "./FAQ";
 export default function Hero() {
   return (
     <section className="hero">
@@ -263,6 +264,8 @@ export default function Hero() {
       </div>
 
     </section>
+
+    <FAQ />
   
     <Footer />
     </section>
