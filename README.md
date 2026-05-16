@@ -1,7 +1,7 @@
 
 # 🌍 La Marina — Agencia de Viajes
 
-La Marina es una aplicación web desarrollada con React y Tailwind CSS enfocada en ofrecer una experiencia moderna y elegante para una agencia de viajes premium. El sitio permite explorar destinos, conocer experiencias, visualizar opiniones de clientes y contactar fácilmente a la agencia.
+La Marina es una aplicación web desarrollada con React y Tailwind CSS enfocada en ofrecer una experiencia moderna y elegante para una agencia de viajes. El sitio permite explorar destinos, conocer experiencias, visualizar opiniones de clientes y contactar fácilmente a la agencia.
 
 ---
 
@@ -150,17 +150,17 @@ src/
 
 ---
 
-# 🔮 ¿Qué mejoraríamos con más tiempo?
+# ¿Qué mejoraríamos con más tiempo?
 
 * Backend para reservaciones reales.
 * Sistema de autenticación de usuarios.
-* Integración con APIs de viajes y hoteles.
-* Panel administrativo.
-* Animaciones más avanzadas.
-* Optimización SEO.
-* Soporte multiidioma.
-* Mejor accesibilidad (a11y).
-* Lazy loading de imágenes.
+* Integración con APIs de viajes.
+* Loader hecho desde zero: 
+    - Ejemplos de  trabajo:
+    - https://codepen.io/A01705840/pen/KwzRowe
+    - https://codepen.io/A01705840/pen/xbGrzbR
+    - https://codepen.io/A01705840/pen/xbGLOqz
+* Modo oscuro.
 
 ---
 
@@ -168,14 +168,11 @@ src/
 
 En una siguiente fase se podría transformar la aplicación en una plataforma completa de reservaciones incluyendo:
 
-* Pasarela de pagos.
-* Sistema de cuentas de usuario.
+* Integración de Google Accounts
 * Historial de viajes.
-* Chat de soporte.
 * Reservaciones en tiempo real.
-* Dashboard administrativo.
-* Integración con mapas y geolocalización.
-* Recomendaciones personalizadas mediante IA.
+* Dashboard de consulta mientras el usuario esta viajando.
+* Integración con mapas.
 
 ---
 
@@ -183,13 +180,7 @@ En una siguiente fase se podría transformar la aplicación en una plataforma co
 
 Proyecto desarrollado por:
 
-* María Soto
+* María José Soto Castro
 
 ---
 
-# 📄 Licencia
-
-Este proyecto fue desarrollado con fines académicos y educativos.
-
-```
-```
