@@ -27,7 +27,7 @@ export default function Navbar() {
       <nav className={`
       fixed top-0 left-0 
       right-0 z-20 flex 
-      items-center h-17 
+      items-center h-16 
       border-b 
       border-sage/20 
       transition-all 
@@ -48,11 +48,11 @@ export default function Navbar() {
             />
 
           <div className="
-          max-sm:hidden flex 
+          max-md:hidden flex 
           flex-col leading-none">
             <span className="
             font-serif uppercase tracking-[0.14em] 
-            text-mist text-base text-white">
+            text-mist text-base ">
               La Marina
             </span>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
         </a>
 
         {/* Links */}
-          <ul className={`${textClass} max-sm:hidden flex h-full ml-1`}>
+          <ul className={`${textClass} max-sm:hidden flex h-full ml-1 `}>
             {[
               { name: "Destinos", id: "destinos" },
               { name: "Opiniones", id: "opiniones" },
@@ -87,7 +87,7 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <Dropdown />
+          <Dropdown/>
 
         
       </nav>

@@ -34,7 +34,7 @@ export default function MobileDropdown() {
   return (
     <div
       ref={dropdownRef}
-      className="relative inline-block text-left sm:hidden"
+      className="relative inline-block text-left sm:hidden m-4"
     >
       {/* Button */}
       <button

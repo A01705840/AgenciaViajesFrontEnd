@@ -10,7 +10,7 @@ export default function Footer() {
             La Marina
           </h2>
 
-          <p className="mt-4 text-black/70 leading-7">
+          <p className="mt-4 text-white/70 leading-7">
             Creamos experiencias de viaje únicas por los destinos más increíbles del mundo.
             Cada aventura está diseñada para convertirse en un recuerdo inolvidable.
           </p>
@@ -18,11 +18,11 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h3 className="uppercase tracking-[0.2em] text-sm text-black mb-5">
+          <h3 className="uppercase tracking-[0.2em] text-sm text-white mb-5">
             Contacto
           </h3>
 
-          <ul className="space-y-4 text-black/70">
+          <ul className="space-y-4 text-white/70">
 
             <li className="flex items-center gap-3">
               <span>📞</span>
@@ -44,11 +44,11 @@ export default function Footer() {
 
         {/* Location & Socials */}
         <div>
-          <h3 className="uppercase tracking-[0.2em] text-sm text-black mb-5">
+          <h3 className="uppercase tracking-[0.2em] text-sm text-white mb-5">
             Ubicación
           </h3>
 
-          <p className="text-black/70 leading-7">
+          <p className="text-white/70 leading-7">
             Av. Carranza 2450 <br />
             San Luis Potosí, México
           </p>
@@ -114,7 +114,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="mt-14 pt-6 border-t border-white/10 text-center text-black/50 text-sm">
+      <div className="mt-14 pt-6 border-t border-white/10 text-center text-white/50 text-sm">
         © {new Date().getFullYear()} La Marina. Todos los derechos reservados.
       </div>
 

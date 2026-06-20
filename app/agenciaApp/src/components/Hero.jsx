@@ -1,21 +1,15 @@
-
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 import Carousel from "./Carousel";
-import DestinationCards from "./DestinationCards";
-import Testimonials from "./Testimonials";
-import FAQ from "./FAQ";
+
 export default function Hero() {
   return (
     <section className="hero">
       <div className="bg-ink text-warm overflow-hidden min-h-screen relative font-sans">
-      <Navbar className=""/>
 
       {/* HERO */}
       <section className="relative min-h-screen overflow-hidden max-sm:flex-col">
 
         {/* Overlays */}
-        <div className="absolute inset-0 bg-linear-to-r from-ink/90 via-ink/60 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-ink/90 via-ink/60 to-transparent " />
 
         <div className="absolute inset-0 bg-linear-to-t from-ink/80 to-transparent" />
 
@@ -31,7 +25,7 @@ export default function Hero() {
               flex items-center
               min-h-screen
               px-4 sm:px-6 md:px-12
-              pt-24 md:pt-18
+              pt-24 md:pt-20
               pointer-events-none
             "
           >
@@ -45,6 +39,7 @@ export default function Hero() {
                 backdrop-blur-sm
                 animate-fadeIn
                 pointer-events-auto
+                m-5
               "
             >
 
@@ -165,11 +160,9 @@ export default function Hero() {
                       className="
                         uppercase
                         tracking-[0.12em]
-                        text-sage/70
+                        text-mist/70
                         mt-1
-
-                        text-[0.5rem]
-                        sm:text-[0.58rem]
+                        text-xs
                       "
                     >
                       {item.label}
@@ -183,91 +176,12 @@ export default function Hero() {
         </div>
       </section>
     </div>
-    <section id="destinos">
-      <h1  className="text-4xl font-serif text-center mt-12 mb-6 text-ink">
-          Destinos Destacados
-      </h1>
-      <DestinationCards /> 
-    </section>
-    <section id="opiniones">
-      <Testimonials />
-    </section>
-    <section id="acerca" className="py-24 px-6 bg-[#f8faf8] transition-colors duration-300">
 
-      <div className="max-w-5xl mx-auto">
+    
+    
 
-        <div className="text-center mb-14">
 
-          <p className="uppercase tracking-[0.3em] text-sage text-xs font-semibold">
-            Acerca de nosotros
-          </p>
-
-          <h2 className="mt-4 text-5xl font-serif text-gray-900 ">
-            Creamos experiencias que inspiran
-          </h2>
-
-          <p className="mt-6 text-gray-500  leading-8 max-w-3xl mx-auto">
-            Creemos que viajar es mucho más que visitar un destino: es descubrir nuevas culturas,
-            crear recuerdos inolvidables y vivir aventuras únicas alrededor del mundo.
-          </p>
-
-        </div>
-
-        <div className="grid gap-10 md:grid-cols-2">
-
-          <div
-            className="rounded-3xl bg-white  p-10 shadow-xl border border-black/5 "
-          >
-
-            <h3 className="text-2xl font-semibold text-gray-900  mb-5">
-              Nuestra historia
-            </h3>
-
-            <p className="text-gray-600  leading-8">
-              Desde hace más de 15 años diseñamos viajes personalizados para viajeros que buscan
-              comodidad, aventura y autenticidad en cada experiencia.
-            </p>
-
-            <p className="mt-5 text-gray-600  leading-8">
-              Nuestro equipo acompaña a cada cliente desde la planeación hasta el regreso a casa,
-              asegurando atención personalizada y tranquilidad durante todo el viaje.
-            </p>
-
-          </div>
-
-          <div
-            className="rounded-3xl bg-white  p-10 shadow-xl border border-black/5 "
-          >
-
-            <h3 className="text-2xl font-semibold text-gray-900 ">
-              ¿Por qué elegirnos?
-            </h3>
-
-            <ul className="space-y-4 text-gray-600 ">
-
-              <li>✦ Más de 15 años creando experiencias únicas.</li>
-
-              <li>✦ Atención personalizada antes, durante y después del viaje.</li>
-
-              <li>✦ Paquetes exclusivos adaptados a cada viajero.</li>
-
-              <li>✦ Hoteles, tours y servicios de alta calidad.</li>
-
-              <li>✦ Compromiso con la seguridad y satisfacción del cliente.</li>
-
-            </ul>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <FAQ />
   
-    <Footer />
     </section>
   )
 }

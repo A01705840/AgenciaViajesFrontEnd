@@ -14,7 +14,7 @@ const images = [
 ]
 
 const captions = [
-    'Disfruta de paisajes naturales impresionantes | París',
+  'Disfruta de paisajes naturales impresionantes | París',
   'Descubre destinos de ensueño con nosotros | Rio de Janeiro',
   'Viaja a la ciudad de tus sueños | Las Vegas',
   'Experimenta culturas únicas en cada destino | Tokio',
@@ -54,25 +54,29 @@ export default function Carousel() {
 
             <div className="absolute inset-0 bg-black/30" />
 
-            {i === current && (
-            <p className="absolute bottom-16 left-1/2 -translate-x-1/2 z-20 text-white bg-black/50 px-4 py-2 rounded">
-                {captions[i]}
-            </p>
-            )}
+            <div className="hidden md:block">
+              {i === current && (
+              <p className="absolute bottom-4 right-4 z-20 text-white bg-black/50 px-4 py-2 rounded max-w-sm text-sm md:text-base">
+                  {captions[i]} 
+              </p>
+              )}
+            </div>
         </div>
         ))}
 
         {/* Controls */}
         <button
         onClick={prev}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-300 bg-black/40 hover:bg-black/60 text-white w-10 h-10 rounded-full flex items-center justify-center border border-white"
+        className="hidden absolute left-4 top-1/2 -translate-y-1/2 z-300 bg-black/40 hover:bg-black/60 text-white w-10 h-10 rounded-full items-center justify-center border border-white
+        md:flex"
         >
         ‹
         </button>
 
         <button
         onClick={next}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-30 bg-black/40 hover:bg-black/60 text-white w-10 h-10 rounded-full flex items-center justify-center  border border-white "
+        className="hidden absolute right-4 top-1/2 -translate-y-1/2 z-30 bg-black/40 hover:bg-black/60 text-white w-10 h-10 rounded-full items-center justify-center  border border-white 
+        md:flex"
         >
         ›
         </button>
