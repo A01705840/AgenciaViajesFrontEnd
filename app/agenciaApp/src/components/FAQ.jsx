@@ -36,7 +36,7 @@ export default function FAQSection() {
             Preguntas frecuentes
           </p>
 
-          <h2 className="mt-4 text-4xl md:text-5xl font-serif text-gray-900">
+          <h2 className="mt-4 text-4xl md:text-5xl font-serif text-gray-900 ">
             Resolvemos tus dudas
           </h2>
 

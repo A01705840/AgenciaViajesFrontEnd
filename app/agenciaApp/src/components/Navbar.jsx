@@ -1,4 +1,5 @@
 import logo from "../assets/Logo.svg";
+import { Darkmode } from "./Darkmode";
 import Dropdown from "./Dropdown";
 import { useState, useEffect } from 'react'
 
@@ -14,6 +15,7 @@ export default function Navbar() {
     navClass = 'bg-[#253237]/90'
     textClass = ' text-white'
   }
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -88,9 +90,9 @@ export default function Navbar() {
             ))}
           </ul>
           <Dropdown/>
-
-        
+          <Darkmode/>
       </nav>
-      </div>
+    </div>
   )
+  
 }
